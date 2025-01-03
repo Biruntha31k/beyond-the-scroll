@@ -1,0 +1,62 @@
+/* Navbar Container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: linear-gradient(to right, #c57ff4, #6d0077);
+    color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+  
+  /* Brand name */
+  .brand {
+    font-size: 1.8rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+  }
+  
+  /* Navbar Links Container */
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  /* Individual Navbar Links */
+  .nav-item {
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #ddd;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-item:hover {
+    color: #FF4F58; /* Hover effect with coral color */
+  }
+  
+  /* Auth Button */
+  .auth-button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF4F58;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .auth-button:hover {
+    background-color: #e02e33;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
